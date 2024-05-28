@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Interface</title>
+    <style>
+        /* Add some basic styling for better appearance */
+        #results div {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Document Search</h1>
+    <input type="text" id="searchBar" placeholder="Enter search query">
+    <button onclick="performSearch()">Search</button>
+    <div id="results"></div>
+    <div id="documentDisplay"></div>
 
+    <script src="script.js"></script>
+</body>
+</html>
